@@ -15,6 +15,7 @@
 		0B69655A23B86EFA00DBB20B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B69655823B86EFA00DBB20B /* LaunchScreen.storyboard */; };
 		0B69656523B86EFA00DBB20B /* Data_PegawaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B69656423B86EFA00DBB20B /* Data_PegawaiTests.swift */; };
 		0B69657023B86EFA00DBB20B /* Data_PegawaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B69656F23B86EFA00DBB20B /* Data_PegawaiUITests.swift */; };
+		0BF26E4623B8D43D009E719B /* AddFormEmployeesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF26E4523B8D43D009E719B /* AddFormEmployeesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0B69656B23B86EFA00DBB20B /* Data PegawaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Data PegawaiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B69656F23B86EFA00DBB20B /* Data_PegawaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_PegawaiUITests.swift; sourceTree = "<group>"; };
 		0B69657123B86EFA00DBB20B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF26E4523B8D43D009E719B /* AddFormEmployeesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFormEmployeesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0B69655823B86EFA00DBB20B /* LaunchScreen.storyboard */,
 				0B69655B23B86EFA00DBB20B /* Info.plist */,
 				0B69655323B86EF900DBB20B /* Data_Pegawai.xcdatamodeld */,
+				0BF26E4523B8D43D009E719B /* AddFormEmployeesController.swift */,
 			);
 			path = "Data Pegawai";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				0B69654F23B86EF900DBB20B /* ViewController.swift in Sources */,
 				0B69655523B86EF900DBB20B /* Data_Pegawai.xcdatamodeld in Sources */,
+				0BF26E4623B8D43D009E719B /* AddFormEmployeesController.swift in Sources */,
 				0B69654D23B86EF900DBB20B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
