@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B1B5EB823B98C4D004CF174 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1B5EB723B98C4D004CF174 /* TableViewCell.swift */; };
 		0B69654D23B86EF900DBB20B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B69654C23B86EF900DBB20B /* AppDelegate.swift */; };
 		0B69654F23B86EF900DBB20B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B69654E23B86EF900DBB20B /* ViewController.swift */; };
 		0B69655223B86EF900DBB20B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B69655023B86EF900DBB20B /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B1B5EB723B98C4D004CF174 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		0B69654923B86EF900DBB20B /* Data Pegawai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Data Pegawai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B69654C23B86EF900DBB20B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B69654E23B86EF900DBB20B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				0B69655B23B86EFA00DBB20B /* Info.plist */,
 				0B69655323B86EF900DBB20B /* Data_Pegawai.xcdatamodeld */,
 				0BF26E4523B8D43D009E719B /* AddFormEmployeesController.swift */,
+				0B1B5EB723B98C4D004CF174 /* TableViewCell.swift */,
 			);
 			path = "Data Pegawai";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B1B5EB823B98C4D004CF174 /* TableViewCell.swift in Sources */,
 				0B69654F23B86EF900DBB20B /* ViewController.swift in Sources */,
 				0B69655523B86EF900DBB20B /* Data_Pegawai.xcdatamodeld in Sources */,
 				0BF26E4623B8D43D009E719B /* AddFormEmployeesController.swift in Sources */,

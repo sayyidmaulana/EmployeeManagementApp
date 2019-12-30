@@ -16,7 +16,7 @@ class AddFormEmployeesController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var datePicker: UIDatePicker!
     @IBOutlet weak var imageEmployees: UIImageView!
-    
+
     var employessID = 0
     let imagePicker = UIImagePickerController()
     
@@ -33,6 +33,7 @@ class AddFormEmployeesController: UIViewController {
         imagePicker.allowsEditing = true
         imagePicker.sourceType = .photoLibrary
         
+        // kondisi ini dieksekusi disaat id nya ada 
         if employessID != 0 {
             let employessFetch = NSFetchRequest<NSFetchRequestResult>(entityName: "Employees")
             employessFetch.fetchLimit = 1
