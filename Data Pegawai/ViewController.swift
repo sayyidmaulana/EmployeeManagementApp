@@ -74,6 +74,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         }
         return cell
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let controller = self.storyboard?.instantiateViewController(withIdentifier: "detailController") as! DetailController
+        controller.employeesID = Int(employees[indexPath.row].id)
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
 }
 extension ViewController: UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {

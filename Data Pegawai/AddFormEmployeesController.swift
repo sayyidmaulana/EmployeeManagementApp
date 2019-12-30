@@ -141,8 +141,11 @@ class AddFormEmployeesController: UIViewController {
             } catch {
                 print(error.localizedDescription)
             }
-            self.navigationController?.popViewController(animated: true)
+            // jangan taruh disini
+//            self.navigationController?.popViewController(animated: true)
         }
+        // tapi disini supaya otomatis back jika kondisi dah kelar
+        self.navigationController?.popViewController(animated: true)
     }
     @IBAction func takeAPicture(_ sender: Any) {
         self.selectPhotoFromLibrary()
