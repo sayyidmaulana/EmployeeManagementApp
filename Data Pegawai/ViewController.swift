@@ -38,7 +38,10 @@ class ViewController: UIViewController {
         searchController.hidesNavigationBarDuringPresentation = true
         searchController.searchBar.placeholder = "Find Employees"
         searchController.searchResultsUpdater = self
-        tableView.tableHeaderView = searchController.searchBar
+//        searchController.searchBar.sizeThatFits(CGSize(width: 50, height: 44.0))
+//        searchController.searchBar.frame = (CGRect(x: 0, y: 0, width: 500, height: 44.0))
+        navigationItem.searchController = searchController
+//        tableView.tableHeaderView = searchController.searchBar
         
         self.navigationItem.title = "Employees"
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.14, green: 0.86, blue: 0.73, alpha: 1.0)
